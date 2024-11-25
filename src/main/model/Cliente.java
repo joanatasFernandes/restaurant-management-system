@@ -4,10 +4,12 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
 public class Cliente {
 
     @Id

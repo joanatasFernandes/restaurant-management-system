@@ -5,12 +5,13 @@ import lombok.NoArgsConstructor;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Usuario {
+public class Mesa {
 
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-    private String username;
-    private String password;
+    private String id;
+    private String numero;
+    private String descricao;
+
 }
